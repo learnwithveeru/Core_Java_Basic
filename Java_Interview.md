@@ -27,4 +27,18 @@ Example: int x=10;
 Reference variables: Reference variables can be used to refer objects.
 Example: Student s=new Student();
 
+•	Based on the purpose and position of declaration all variables are divided into the following 3 types.
+1)	Instance variables
+2)	Static variables
+3)	Local variables
+Instance variables: 
+•	If the value of a  is varied from object to object such type of variables are called instance variables.
+•	For every object a separate copy of instance variables will be created.
+•	Instance variables will be created at the time of object creation and destroyed at the time of object destruction hence the scope of instance variables is exactly same as scope of objects.
+•	Instance variables will be stored on the heap as the part of object.
+•	Instance variables should be declared with in the class directly but outside of any method or block or constructor.7
+•	Instance variables can be accessed directly from Instance area. But cannot be accessed directly from static area.
+•	But by using object reference we can access instance variables from static area.
+
+
 
