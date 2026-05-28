@@ -40,6 +40,7 @@ Instance variables:
 •	Instance variables should be declared with in the class directly but outside of any method or block or constructor.7
 •	Instance variables can be accessed directly from Instance area. But cannot be accessed directly from static area.
 •	But by using object reference we can access instance variables from static area.
+•	For the instance variables it is not required to perform initialization JVM will always provide default values.
 
 
 
