@@ -31,6 +31,7 @@ Example: Student s=new Student();
 1)	Instance variables
 2)	Static variables
 3)	Local variables
+   
 Instance variables: 
 •	If the value of a  is varied from object to object such type of variables are called instance variables.
 •	For every object a separate copy of instance variables will be created.
