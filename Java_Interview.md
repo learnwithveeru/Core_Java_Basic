@@ -34,13 +34,58 @@ Example: Student s=new Student();
    
 Instance variables: 
 •	If the value of a  is varied from object to object such type of variables are called instance variables.
+
 •	For every object a separate copy of instance variables will be created.
+
 •	Instance variables will be created at the time of object creation and destroyed at the time of object destruction hence the scope of instance variables is exactly same as scope of objects.
+
 •	Instance variables will be stored on the heap as the part of object.
+
 •	Instance variables should be declared with in the class directly but outside of any method or block or constructor.7
+
 •	Instance variables can be accessed directly from Instance area. But cannot be accessed directly from static area.
+
 •	But by using object reference we can access instance variables from static area.
+
 •	For the instance variables it is not required to perform initialization JVM will always provide default values.
+
+•	Instance variables also known as object level variables or attributes.
+
+
+Static variables:
+
+•	If the value of a variable is not varied from object to object such type of variables is not recommended to declare as instance variables. We have to declare such type of variables at class level by using static modifier.
+
+•	In the case of instance variables for every object a separate copy will be created but in the case of static variables for entire class only one copy will be created and shared by every object of that class.
+
+•	Static variables will be crated at the time of class loading and destroyed at the time of class unloading hence the scope of the static variable is exactly same as the scope of the .class file.
+
+•	Static variables will be stored in method area.
+
+•	 Static variables should be declared with in the class directly but outside of any method or block or constructor.
+
+•	Static variables can be accessed from both instance and static areas directly.
+
+•	We can access static variables either by class name or by object reference but usage of class name is recommended.
+
+•	But within the same class it is not required to use class name we can access directly.
+
+1)	Start JVM.
+
+2)	Create and start Main Thread by JVM.
+
+3)	Locate(find) Test.class by main Thread.
+
+4)	Load Test.class by main Thread.
+
+5)	Execution of main() method.
+
+6)	Unload Test.class
+
+7)	Terminate main Thread.
+
+8)	Shutdown JVM.
+
 
 
 
