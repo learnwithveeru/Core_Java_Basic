@@ -41,6 +41,7 @@ Instance variables:
 •	Instance variables can be accessed directly from Instance area. But cannot be accessed directly from static area.
 •	But by using object reference we can access instance variables from static area.
 •	For the instance variables it is not required to perform initialization JVM will always provide default values.
+•	Instance variables also known as object level variables or attributes.
 
 
 
