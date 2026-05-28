@@ -14,3 +14,14 @@ The main advantage of arrays is we can represent multiple values with the same n
 
 Fixed in size that is once we created an array there is no chance of increasing or decreasing the size based on our requirement that is to use arrays concept compulsory we should know the size in advance which may not possible always.
 
+Types of Variables :
+
+•	Based the type of value represented by the variable all variables are divided into 2 types. They are:
+1)	Primitive variables
+2)	Reference variables
+Primitive variables: Primitive variables can be used to represent primitive values.
+Example: int x=10;
+Reference variables: Reference variables can be used to refer objects.
+Example: Student s=new Student();
+
+
