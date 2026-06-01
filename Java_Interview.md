@@ -86,6 +86,15 @@ Static variables:
 
 8)	Shutdown JVM.
 
+Local Variables:
+•	Some time to meet temporary requirements of the programmer we can declare variables inside a method or block or constructors 
+
+such type of variables are called local variables or automatic variables or temporary variables or stack variables.
+
+•	The local variables will be created as part of the block execution in which it is declared and destroyed once that block 
+
+execution completes. Hence the scope of the local variables is exactly same as scope of the block in which we declared.
+
 
 
 
