@@ -96,5 +96,13 @@ such type of variables are called local variables or automatic variables or temp
 execution completes. Hence the scope of the local variables is exactly same as scope of the block in which we declared.
 
 
+•	The local variables will be stored on the stack.
+
+•	For the local variables JVM won’t provide any default values compulsory we should perform initialization explicitly before 
+
+using that variable.
+
+
+
 
 
